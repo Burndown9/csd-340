@@ -1,0 +1,66 @@
+html {
+    background-color: lightgreen;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#hobbies, #experience {
+    margin-top: 1.25%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+img {
+    width: 600px;
+    height: 196px;
+    margin: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+figcaption {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* turn the form into a table using CSS to make it line up perfectly */
+
+#contact {
+    display: block;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+form {
+    display: table;
+}
+
+label {
+    display: table-cell;
+}
+
+input {
+    display: table-cell;
+}
+
+p {
+    display: table-row;
+}
